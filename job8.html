@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(232, 232, 232);
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .dd{
+       padding: 90px;
+    }
+</style>
+<body>
+    <h1 style="text-align: center; font-size: 30px;">Student Registration Form Using Table in HTML</h1>
+    <fieldset>
+        <legend>ส่วนที่ 1 ENG</legend>
+        <div class="container" class="dd"></div>
+        <form action="">
+            <h1>Name - Last</h1>
+            Firstname : <input type="text" name="ชื่อ" maxlength="10" placeholder="Plesase fill in completely" required>
+            <br>
+            <br>
+            Lastname : <input type="text" name="" maxlength="10" placeholder="Plesase fill in completely" required>
+            <br>
+            <br>
+            ID Student : <input type="number" name="number" placeholder="Plesase fill in completely">
+            <br>
+            <br>
+            Email: <input type="text" name="Email" placeholder="@fve.ac.th">
+            <br>
+            <br>
+            DATA <input type="date">
+            <br>
+            <br>
+            <input type="radio" name="sex" value="man">Man
+            <input type="radio" name="sex" value="felemel">Felemel
+            <h1>Study Department</h1>
+            <select name = "Department of">
+                <option value="0">-</option>
+                <option value="1">Department of Automotive Technology</option>
+                <option value="2">Department of Auto Body Repair and Refinishing</option>
+                <option value="3">Department of Electrical Power</option>
+                <option value="4">Department of Electronics</option>
+                <option value="5">Department of Construction Technology</option>
+                <option value="6">Department of Welding Technology</option>
+                <option value="7">Department of Petroleum Technology</option>
+                <option value="8">Department of Information Technology (IT)</option>
+                <option value="9">Department of Accounting</option>
+                <option value="10">Department of Marketing</option>
+                <option value="11">Department of Retail Business</option>
+                <option value="12">Department of Hotel Management (Thaton Campus)</option>
+            </select>
+            <h1>Level</h1>
+            <select name="Level" >
+                <option value="1">-</option>
+                <option value="1">Certificate of Vocational Education (Voc. Cert.)</option>
+                <option value="2">Diploma of Vocational Education (Dipl. Voc. Ed.)</option>
+            </select>
+            <h1>Contact channels</h1>
+            PhoneNumber : <input type="number" name="number" placeholder="090-000-0000" >
+            <br>
+            FaceBook : <input type="text" name="" placeholder="name">
+            <br>
+            Instagaam : <input type="text" name="" placeholder="IG">
+            <h1>Additonl information</h1>
+            <textarea placeholder="" rows="10" cols="40"></textarea>
+            <input type="submit" value="คลิก">
+            <button>ส่งดิ</button>
+        </form>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>ส่วนที่ 2 THAI</legend>
+        <div class="container" class="dd"></div>
+        <form action="">
+            <h1>ชื่อ - นามสกุล</h1>
+            ชื่อ : <input type="text" name="ชื่อ" maxlength="10" placeholder="โปรดกรอกข้อมูลให้ครบ" required>
+            <br>
+            <br>
+            นามสกุล : <input type="text" name="" maxlength="10" placeholder="โปรดกรอกข้อมูลให้ครบ" required>
+            <br>
+            <br>
+            รหัสนักศึกษา : <input type="number" name="number" placeholder="โปรดกรอกข้อมูลให้ครบ">
+            <br>
+            <br>
+            Email : <input type="text" name="Email" placeholder="@fve.ac.th">
+            <br>
+            <br>
+            วัน/เดือน/ปี <input type="วัน/เดือน/ปี">
+            <br>
+            <br>
+            <input type="radio" name="sex" value="man">ชาย
+            <input type="radio" name="sex" value="felemel">หญิง
+            <h1>นักเรียนเเผนก</h1>
+            <select name = "เเผนก">
+                <option value="0">-</option>
+                <option value="1">แผนกวิชาช่างยนต์</option>
+                <option value="2">แผนกวิชาตัวถังและสีรถยนต์</option>
+                <option value="3">แผนกวิชาช่างไฟฟ้ากำลัง</option>
+                <option value="4">แผนกวิชาช่างอิเล็กทรอนิกส์</option>
+                <option value="5">แผนกวิชาช่างก่อสร้าง</option>
+                <option value="6">แผนกวิชาช่างเชื่อมโลหะ</option>
+                <option value="7">แผนกวิชาเทคโนโลยีปิโตรเลียม</option>
+                <option value="8">แผนกวิชาเทคโนโลยีสารสนเทศ</option>
+                <option value="9">แผนกวิชาการบัญชี</option>
+                <option value="10">แผนกวิชาการตลาด</option>
+                <option value="11">แผนกวิชาธุรกิจค้าปลีก</option>
+                <option value="12">แผนกวิชาการโรงแรม (สาขาท่าตอน)</option>
+            </select>
+            <h1>ระดับชั้น</h1>
+            <select name="Level" >
+                <option value="1">-</option>
+                <option value="1">ระดับประกาศนียบัตรวิชาชีพ (ปวช.)</option>
+                <option value="2">ระดับประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</option>
+            </select>
+            <h1>ช่องการติดต่อ</h1>
+            เบอร์โทรศัพท์ : <input type="number" name="number" placeholder="090-000-0000" >
+            <br>
+            FaceBook : <input type="text" name="" placeholder="name">
+            <br>
+            Instagaam : <input type="text" name="" placeholder="IG">
+            <h1>Additonl information</h1>
+            <textarea placeholder="" rows="10" cols="40"></textarea>
+            <input type="submit" value="คลิก">
+            <button>ส่งดิ</button>
+        </form>
+        </div>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <center>
+    <h1 style="background-color: rgb(0, 0, 0); color: aliceblue;" >จัดทำโดย</h1>
+    <h2>Mr. Nawakorn Samkaew</h2>
+    <h3>Department of Information Technology (IT)</h3>
+    </center>
+</body>
+</html>
